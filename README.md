@@ -24,3 +24,8 @@ My goal is to create an open-source, free to use DAW while learning java. I have
 * Miscellaneous
   * Tuner
   * Lyrics
+
+## Version History
+* pre.0.1 - 11/12/20
+  * Added window
+  * Made [icon](https://raw.githubusercontent.com/Turtlz444/artemis-daw/main/Artemis%20DAW.png)
