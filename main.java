@@ -14,16 +14,10 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 //json
-import org.json.simple.JSONArray;
-import org.json.simple.JSONObject;
 
 //main
 class Main {
     public static void main(String[] args) throws IOException {
-
-//open files
-        FileWriter songInfo = new FileWriter("info.json");
-        int i = 3;
 
 //window setup
         ImageIcon img = new ImageIcon("Artemis DAW.png");
@@ -43,8 +37,5 @@ class Main {
         title.setHorizontalAlignment(SwingConstants.CENTER);
         title.setVerticalAlignment(SwingConstants.TOP);
         frame.add(title);
-
-//close files
-        songInfo.close();
     }
 }
