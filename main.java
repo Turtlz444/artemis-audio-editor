@@ -29,13 +29,22 @@ class Main {
         frame.setIconImage(img.getImage());
 
 //titles setup
-        JLabel title = new JLabel("My Label");
-        Font titleFont = new Font("PTSans-Regular.ttf", Font.PLAIN, 28);
-        title.setText("<html>hi</html>");
-        title.setFont(titleFont);
+        Font main = new Font("PTSans-Regular.ttf", Font.PLAIN, 18);
+        JLabel title = new JLabel("Title");
+        title.setText("<html>Title</html>");
+        title.setFont(main);
         title.setForeground(Color.white);
         title.setHorizontalAlignment(SwingConstants.CENTER);
         title.setVerticalAlignment(SwingConstants.TOP);
         frame.add(title);
+//subtext setup
+        Font sub = new Font("AzoSans-Regular.ttf", Font.PLAIN, 12);
+        JLabel subtext = new JLabel("Subtext");
+        subtext.setText("<html><br/><br/>Subtext</html>");
+        subtext.setFont(sub);
+        subtext.setForeground(Color.white);
+        subtext.setHorizontalAlignment(SwingConstants.LEFT);
+        subtext.setVerticalAlignment(SwingConstants.TOP);
+        frame.add(subtext);
     }
 }
