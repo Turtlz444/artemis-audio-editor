@@ -1,8 +1,8 @@
 # Artemis DAW
-v. pre.0.1 
+v. pre.0.1
 
 ## About
-My goal is to create an open-source, free to use DAW while learning java. I have zero experience in Java (or C#, C, C++, Python, or any similar language), but I do have experience in java so that sort of helps.
+My goal is to create an open-source, free to use DAW while learning java. I have zero experience in Java (or C#, C, C++, Python, or any similar language), but I do have experience in JavaScript so that sort of helps.
 
 ## Goals
 * Audio editing
