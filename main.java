@@ -1,12 +1,15 @@
 //awt
 import java.awt.Color;
 import java.awt.Font;
+import java.awt.BorderLayout;
 
 //swing
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.ImageIcon;
 import javax.swing.SwingConstants;
+import javax.swing.Box;
+import javax.swing.JButton;
 
 //io
 import java.io.File;
@@ -28,23 +31,15 @@ class Main {
         frame.getContentPane().setBackground(Color.decode("#151515"));
         frame.setIconImage(img.getImage());
 
-//titles setup
+//styling setup
         Font main = new Font("PTSans-Regular.ttf", Font.PLAIN, 18);
-        JLabel title = new JLabel("Title");
-        title.setText("<html>Title</html>");
-        title.setFont(main);
-        title.setForeground(Color.white);
-        title.setHorizontalAlignment(SwingConstants.CENTER);
-        title.setVerticalAlignment(SwingConstants.TOP);
-        frame.add(title);
-//subtext setup
         Font sub = new Font("AzoSans-Regular.ttf", Font.PLAIN, 12);
-        JLabel subtext = new JLabel("Subtext");
-        subtext.setText("<html><br/><br/>Subtext</html>");
-        subtext.setFont(sub);
-        subtext.setForeground(Color.white);
-        subtext.setHorizontalAlignment(SwingConstants.LEFT);
-        subtext.setVerticalAlignment(SwingConstants.TOP);
-        frame.add(subtext);
+
+//header setup
+        Box tabs = Box.createHorizontalBox();
+        tabs.add(new JButton("File")).setFont(sub);
+        tabs.add(new JButton("Edit")).setFont(sub);
+        tabs.setBackground(Color.WHITE);
+        frame.add(tabs, BorderLayout.BEFORE_FIRST_LINE);
     }
 }
