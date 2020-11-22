@@ -7,7 +7,6 @@ import java.awt.BorderLayout;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.ImageIcon;
-import javax.swing.SwingConstants;
 import javax.swing.Box;
 import javax.swing.JButton;
 
@@ -15,8 +14,6 @@ import javax.swing.JButton;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-
-//json
 
 //main
 class Main {
