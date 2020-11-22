@@ -1,4 +1,4 @@
-# Artemis DAW
+# Artemis Audio Editor
 v. pre.0.1
 
 ## About
@@ -19,7 +19,7 @@ My goal is to create an open-source, free to use DAW while learning java. I have
   * Midi editing
 * Import/Export
   * Import .mp3, .wav
-  * Import/export to custom file .art
+  * Import/export to custom file .aaud
   * Export to .mp3, .wav
 * Miscellaneous
   * Tuner
@@ -28,4 +28,4 @@ My goal is to create an open-source, free to use DAW while learning java. I have
 ## Version History
 * pre.0.1 - 11/12/20
   * Added window
-  * Made [icon](https://raw.githubusercontent.com/Turtlz444/artemis-daw/main/Artemis%20DAW.png)
+  * Made [icon](https://raw.githubusercontent.com/Turtlz444/artemis-audio-editor/main/Artemis%20DAW.png)
