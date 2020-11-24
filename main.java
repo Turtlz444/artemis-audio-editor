@@ -16,7 +16,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 //main
-class Main {
+class main {
     public static void main(String[] args) throws IOException {
 
 //window setup
