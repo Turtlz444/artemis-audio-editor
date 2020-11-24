@@ -29,16 +29,16 @@ class Main {
         frame.setIconImage(img.getImage());
 
 //styling setup
-        Font prim = new Font("PTSans-Regular.ttf", Font.BOLD, 18); //Headers
-        Font sec = new Font("AzoSans-Italic.ttf", Font.ITALIC, 18); //Subheaders
+        Font prim = new Font("Orienta-Regular.ttf", Font.BOLD, 18); //Headers
+        Font sec = new Font("Orienta-Regular.ttf", Font.PLAIN, 12); //Subheaders
         Font tert = new Font("AzoSans-Regular.ttf", Font.PLAIN, 12); //Regular text
 
 //header setup
         Box tabs = Box.createHorizontalBox();
-        tabs.add(new JButton("File")).setFont(tert);
-        tabs.add(new JButton("Edit")).setFont(tert);
-        tabs.add(new JButton("View")).setFont(tert);
-        tabs.add(new JButton("Help")).setFont(tert);
+        tabs.add(new JButton("FILE")).setFont(sec);
+        tabs.add(new JButton("EDIT")).setFont(sec);
+        tabs.add(new JButton("VIEW")).setFont(sec);
+        tabs.add(new JButton("HELP")).setFont(sec);
         tabs.setBackground(Color.WHITE);
         frame.add(tabs, BorderLayout.BEFORE_FIRST_LINE);
     }
